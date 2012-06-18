@@ -1,0 +1,450 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE455AAB158EC134002F90E9 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE455AAA158EC134002F90E9 /* Cocoa.framework */; };
+		CE455AB5158EC134002F90E9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CE455AB3158EC134002F90E9 /* InfoPlist.strings */; };
+		CE455AB7158EC134002F90E9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CE455AB6158EC134002F90E9 /* main.m */; };
+		CE455ABB158EC134002F90E9 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = CE455AB9158EC134002F90E9 /* Credits.rtf */; };
+		CE455ABE158EC134002F90E9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CE455ABD158EC134002F90E9 /* AppDelegate.m */; };
+		CE455AC1158EC135002F90E9 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE455ABF158EC135002F90E9 /* MainMenu.xib */; };
+		CE455AC9158EC135002F90E9 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE455AC8158EC135002F90E9 /* SenTestingKit.framework */; };
+		CE455ACA158EC135002F90E9 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE455AAA158EC134002F90E9 /* Cocoa.framework */; };
+		CE455AD2158EC135002F90E9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CE455AD0158EC135002F90E9 /* InfoPlist.strings */; };
+		CE455AD5158EC135002F90E9 /* vmosxTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE455AD4158EC135002F90E9 /* vmosxTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CE455ACB158EC135002F90E9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE455A9D158EC133002F90E9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE455AA5158EC134002F90E9;
+			remoteInfo = vmosx;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CE455AA6158EC134002F90E9 /* vmosx.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = vmosx.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE455AAA158EC134002F90E9 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		CE455AAD158EC134002F90E9 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		CE455AAE158EC134002F90E9 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		CE455AAF158EC134002F90E9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CE455AB2158EC134002F90E9 /* vmosx-Info.plist */ = {isa = PBXFileReference; path = "vmosx-Info.plist"; sourceTree = "<group>"; };
+		CE455AB4158EC134002F90E9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CE455AB6158EC134002F90E9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CE455AB8158EC134002F90E9 /* vmosx-Prefix.pch */ = {isa = PBXFileReference; path = "vmosx-Prefix.pch"; sourceTree = "<group>"; };
+		CE455ABA158EC134002F90E9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		CE455ABC158EC134002F90E9 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		CE455ABD158EC134002F90E9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CE455AC0158EC135002F90E9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		CE455AC7158EC135002F90E9 /* vmosxTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = vmosxTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE455AC8158EC135002F90E9 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		CE455ACF158EC135002F90E9 /* vmosxTests-Info.plist */ = {isa = PBXFileReference; path = "vmosxTests-Info.plist"; sourceTree = "<group>"; };
+		CE455AD1158EC135002F90E9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CE455AD3158EC135002F90E9 /* vmosxTests.h */ = {isa = PBXFileReference; path = vmosxTests.h; sourceTree = "<group>"; };
+		CE455AD4158EC135002F90E9 /* vmosxTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = vmosxTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE455AA3158EC134002F90E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE455AAB158EC134002F90E9 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE455AC3158EC135002F90E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE455AC9158EC135002F90E9 /* SenTestingKit.framework in Frameworks */,
+				CE455ACA158EC135002F90E9 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CE455A9B158EC133002F90E9 = {
+			isa = PBXGroup;
+			children = (
+				CE455AB0158EC134002F90E9 /* vmosx */,
+				CE455ACD158EC135002F90E9 /* vmosxTests */,
+				CE455AA9158EC134002F90E9 /* Frameworks */,
+				CE455AA7158EC134002F90E9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CE455AA7158EC134002F90E9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE455AA6158EC134002F90E9 /* vmosx.app */,
+				CE455AC7158EC135002F90E9 /* vmosxTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE455AA9158EC134002F90E9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CE455AAA158EC134002F90E9 /* Cocoa.framework */,
+				CE455AC8158EC135002F90E9 /* SenTestingKit.framework */,
+				CE455AAC158EC134002F90E9 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CE455AAC158EC134002F90E9 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CE455AAD158EC134002F90E9 /* AppKit.framework */,
+				CE455AAE158EC134002F90E9 /* CoreData.framework */,
+				CE455AAF158EC134002F90E9 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		CE455AB0158EC134002F90E9 /* vmosx */ = {
+			isa = PBXGroup;
+			children = (
+				CE455ABC158EC134002F90E9 /* AppDelegate.h */,
+				CE455ABD158EC134002F90E9 /* AppDelegate.m */,
+				CE455ABF158EC135002F90E9 /* MainMenu.xib */,
+				CE455AB1158EC134002F90E9 /* Supporting Files */,
+			);
+			path = vmosx;
+			sourceTree = "<group>";
+		};
+		CE455AB1158EC134002F90E9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CE455AB2158EC134002F90E9 /* vmosx-Info.plist */,
+				CE455AB3158EC134002F90E9 /* InfoPlist.strings */,
+				CE455AB6158EC134002F90E9 /* main.m */,
+				CE455AB8158EC134002F90E9 /* vmosx-Prefix.pch */,
+				CE455AB9158EC134002F90E9 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CE455ACD158EC135002F90E9 /* vmosxTests */ = {
+			isa = PBXGroup;
+			children = (
+				CE455AD3158EC135002F90E9 /* vmosxTests.h */,
+				CE455AD4158EC135002F90E9 /* vmosxTests.m */,
+				CE455ACE158EC135002F90E9 /* Supporting Files */,
+			);
+			path = vmosxTests;
+			sourceTree = "<group>";
+		};
+		CE455ACE158EC135002F90E9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CE455ACF158EC135002F90E9 /* vmosxTests-Info.plist */,
+				CE455AD0158EC135002F90E9 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE455AA5158EC134002F90E9 /* vmosx */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE455AD8158EC135002F90E9 /* Build configuration list for PBXNativeTarget "vmosx" */;
+			buildPhases = (
+				CE455AA2158EC134002F90E9 /* Sources */,
+				CE455AA3158EC134002F90E9 /* Frameworks */,
+				CE455AA4158EC134002F90E9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = vmosx;
+			productName = vmosx;
+			productReference = CE455AA6158EC134002F90E9 /* vmosx.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CE455AC6158EC135002F90E9 /* vmosxTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE455ADB158EC135002F90E9 /* Build configuration list for PBXNativeTarget "vmosxTests" */;
+			buildPhases = (
+				CE455AC2158EC135002F90E9 /* Sources */,
+				CE455AC3158EC135002F90E9 /* Frameworks */,
+				CE455AC4158EC135002F90E9 /* Resources */,
+				CE455AC5158EC135002F90E9 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE455ACC158EC135002F90E9 /* PBXTargetDependency */,
+			);
+			name = vmosxTests;
+			productName = vmosxTests;
+			productReference = CE455AC7158EC135002F90E9 /* vmosxTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE455A9D158EC133002F90E9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = CE455AA0158EC133002F90E9 /* Build configuration list for PBXProject "vmosx" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CE455A9B158EC133002F90E9;
+			productRefGroup = CE455AA7158EC134002F90E9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE455AA5158EC134002F90E9 /* vmosx */,
+				CE455AC6158EC135002F90E9 /* vmosxTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE455AA4158EC134002F90E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE455AB5158EC134002F90E9 /* InfoPlist.strings in Resources */,
+				CE455ABB158EC134002F90E9 /* Credits.rtf in Resources */,
+				CE455AC1158EC135002F90E9 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE455AC4158EC135002F90E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE455AD2158EC135002F90E9 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		CE455AC5158EC135002F90E9 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE455AA2158EC134002F90E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE455AB7158EC134002F90E9 /* main.m in Sources */,
+				CE455ABE158EC134002F90E9 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE455AC2158EC135002F90E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE455AD5158EC135002F90E9 /* vmosxTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CE455ACC158EC135002F90E9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE455AA5158EC134002F90E9 /* vmosx */;
+			targetProxy = CE455ACB158EC135002F90E9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CE455AB3158EC134002F90E9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE455AB4158EC134002F90E9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CE455AB9158EC134002F90E9 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE455ABA158EC134002F90E9 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		CE455ABF158EC135002F90E9 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE455AC0158EC135002F90E9 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		CE455AD0158EC135002F90E9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE455AD1158EC135002F90E9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CE455AD6158EC135002F90E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		CE455AD7158EC135002F90E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		CE455AD9158EC135002F90E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "vmosx/vmosx-Prefix.pch";
+				INFOPLIST_FILE = "vmosx/vmosx-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CE455ADA158EC135002F90E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "vmosx/vmosx-Prefix.pch";
+				INFOPLIST_FILE = "vmosx/vmosx-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		CE455ADC158EC135002F90E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/vmosx.app/Contents/MacOS/vmosx";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "vmosx/vmosx-Prefix.pch";
+				INFOPLIST_FILE = "vmosxTests/vmosxTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		CE455ADD158EC135002F90E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/vmosx.app/Contents/MacOS/vmosx";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "vmosx/vmosx-Prefix.pch";
+				INFOPLIST_FILE = "vmosxTests/vmosxTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE455AA0158EC133002F90E9 /* Build configuration list for PBXProject "vmosx" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE455AD6158EC135002F90E9 /* Debug */,
+				CE455AD7158EC135002F90E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE455AD8158EC135002F90E9 /* Build configuration list for PBXNativeTarget "vmosx" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE455AD9158EC135002F90E9 /* Debug */,
+				CE455ADA158EC135002F90E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CE455ADB158EC135002F90E9 /* Build configuration list for PBXNativeTarget "vmosxTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE455ADC158EC135002F90E9 /* Debug */,
+				CE455ADD158EC135002F90E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CE455A9D158EC133002F90E9 /* Project object */;
+}
