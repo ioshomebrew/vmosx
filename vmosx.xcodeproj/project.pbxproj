@@ -17,6 +17,7 @@
 		CE455ACA158EC135002F90E9 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE455AAA158EC134002F90E9 /* Cocoa.framework */; };
 		CE455AD2158EC135002F90E9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CE455AD0158EC135002F90E9 /* InfoPlist.strings */; };
 		CE455AD5158EC135002F90E9 /* vmosxTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE455AD4158EC135002F90E9 /* vmosxTests.m */; };
+		CE455AEC158EEC25002F90E9 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE455AEB158EEC25002F90E9 /* Security.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,20 +36,21 @@
 		CE455AAD158EC134002F90E9 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		CE455AAE158EC134002F90E9 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		CE455AAF158EC134002F90E9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		CE455AB2158EC134002F90E9 /* vmosx-Info.plist */ = {isa = PBXFileReference; path = "vmosx-Info.plist"; sourceTree = "<group>"; };
+		CE455AB2158EC134002F90E9 /* vmosx-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "vmosx-Info.plist"; sourceTree = "<group>"; };
 		CE455AB4158EC134002F90E9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CE455AB6158EC134002F90E9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		CE455AB8158EC134002F90E9 /* vmosx-Prefix.pch */ = {isa = PBXFileReference; path = "vmosx-Prefix.pch"; sourceTree = "<group>"; };
+		CE455AB8158EC134002F90E9 /* vmosx-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "vmosx-Prefix.pch"; sourceTree = "<group>"; };
 		CE455ABA158EC134002F90E9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		CE455ABC158EC134002F90E9 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		CE455ABC158EC134002F90E9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CE455ABD158EC134002F90E9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		CE455AC0158EC135002F90E9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		CE455AC7158EC135002F90E9 /* vmosxTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = vmosxTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE455AC8158EC135002F90E9 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		CE455ACF158EC135002F90E9 /* vmosxTests-Info.plist */ = {isa = PBXFileReference; path = "vmosxTests-Info.plist"; sourceTree = "<group>"; };
+		CE455ACF158EC135002F90E9 /* vmosxTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "vmosxTests-Info.plist"; sourceTree = "<group>"; };
 		CE455AD1158EC135002F90E9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		CE455AD3158EC135002F90E9 /* vmosxTests.h */ = {isa = PBXFileReference; path = vmosxTests.h; sourceTree = "<group>"; };
+		CE455AD3158EC135002F90E9 /* vmosxTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = vmosxTests.h; sourceTree = "<group>"; };
 		CE455AD4158EC135002F90E9 /* vmosxTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = vmosxTests.m; sourceTree = "<group>"; };
+		CE455AEB158EEC25002F90E9 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE455AEC158EEC25002F90E9 /* Security.framework in Frameworks */,
 				CE455AAB158EC134002F90E9 /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -75,6 +78,7 @@
 		CE455A9B158EC133002F90E9 = {
 			isa = PBXGroup;
 			children = (
+				CE455AEB158EEC25002F90E9 /* Security.framework */,
 				CE455AB0158EC134002F90E9 /* vmosx */,
 				CE455ACD158EC135002F90E9 /* vmosxTests */,
 				CE455AA9158EC134002F90E9 /* Frameworks */,
@@ -372,6 +376,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "vmosx/vmosx-Prefix.pch";
 				INFOPLIST_FILE = "vmosx/vmosx-Info.plist";
+				OTHER_LDFLAGS = "-lcurl";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -383,6 +388,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "vmosx/vmosx-Prefix.pch";
 				INFOPLIST_FILE = "vmosx/vmosx-Info.plist";
+				OTHER_LDFLAGS = "-lcurl";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};

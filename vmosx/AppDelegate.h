@@ -12,4 +12,12 @@
 
 @property (assign) IBOutlet NSWindow *window;
 
+- (IBAction)videodriver:(id)sender;
+- (IBAction)vmwarepatch:(id)sender;
+- (IBAction)vmwarestart:(id)sender;
+- (IBAction)vmwarerestart:(id)sender;
+- (IBAction)vmwarestop:(id)sender;
+- (IBAction)ensoniq:(id)sender;
+- (IBAction)about:(id)sender;
+
 @end
